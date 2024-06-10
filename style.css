@@ -62,3 +62,26 @@ body {
     width: 40px;
     height: 40px;
 }
+
+@media (max-width: 768px) {
+    .relogio {
+        flex-direction: column;
+        height: auto;
+        width: 200px;
+    }
+
+    .relogio div {
+        height: 100px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .relogio span {
+        font-size: 40px;
+    }
+
+    #mudar-tema-btn img {
+        width: 60px;
+        height: 60px;
+    }
+}
